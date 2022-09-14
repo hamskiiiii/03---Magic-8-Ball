@@ -36,11 +36,11 @@ def get_negative_answer(answer):
     return ans
 
 def get_no_answer(answer):
-    ans = ""
+    ans = "You may rely on it."
     if answer == 0:
         ans = "Reply hazy, try again."
     elif answer == 1:
-        ans = "Ask agian later."
+        ans = "Ask again later."
     elif answer == 2:
         ans = "Better not tello you now."
     elif answer == 3:
